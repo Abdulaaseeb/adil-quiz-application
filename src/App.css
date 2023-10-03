@@ -1,38 +1,34 @@
-.App {
-  text-align: center;
+.linking {
+  text-decoration: underline;
+  color: red;
+  cursor: pointer;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.bg-image {
+  background: url('img/RB_Dig_KIQuiz_stage_00_image_caption_none.webp');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.option-Btn {
+  border: 2px solid rgb(4, 6, 21) !important;
+  background-color:rgba(27,136,185,0.5) !important;
+  border-radius: 4px !important;
+  color: aliceblue !important;
 }
-
-.App-link {
-  color: #61dafb;
+.option-Btn:hover {
+  border: 2px solid rgb(4, 6, 21) !important;
+  background-color:rgb(27,136,185) !important;
+  border-radius: 4px !important;
+  color: aliceblue !important;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.correct {
+  border: 2px solid rgb(4, 6, 21) !important;
+  background-color: rgb(4, 6, 21) !important;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px white;
 }
